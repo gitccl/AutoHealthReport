@@ -2,7 +2,7 @@ name: healthReport
 
 on:
   schedule:
-    - cron: '0 0 0 * * *' # GMT+8 8:00
+    - cron: '0 0 * * *' # GMT+8 8:00
   workflow_dispatch: # add manually button
 
 jobs:
